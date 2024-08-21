@@ -13,7 +13,7 @@ contact: #联系方式连接等3~5行
   href: 'mailto:pb18111726@mail.ustc.edu.cn' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
 - text: "18220501663"
-  href: 'tel:1234567890'
+  href: 'tel:18220501663'
   icon: 'icons/phone.svg'
 # - text: "your-website.com"
 #   href: 'http://your-website.com'
@@ -30,7 +30,7 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
+  - title: 中国科学技术大学
     duration: "2011年x月 - 2015年"
     sub: 地点或学历
     detail: 专业或者简短说明
@@ -53,8 +53,8 @@ main: #简历主要内容，
 - type: experience
   name: 经验
   content:
-  - title: 职位
-    sub: 某某公司
+  - title: 主力算法工程师
+    sub: 科大讯飞有限公司
     duration: "xxxx年xx月 - yyyy年yy月"
     tags:
     - 标签
@@ -73,7 +73,7 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
+  - title: 一种基于
     duration: xxxx年xx月 - yyyy年yy月
     detail: 项目和工作介绍，项目总结.
     sub: 维护者
