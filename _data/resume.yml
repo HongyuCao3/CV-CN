@@ -31,57 +31,56 @@ main: #简历主要内容，
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 中国科学技术大学
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+    duration: "2022年9月 - 2025年6月"
+    sub: 安徽合肥
+    detail: 计算机科学与技术硕士
+  - title: 中国科学技术大学
+    duration: "2018年9月 - 2022年6月"
+    sub: 安徽合肥
+    detail: 计算机科学与技术学士
 
 - type: skills
   # name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - Python (Torch, FairSeq)
+    - C++
+    - Matlab
 
 - type: experience
   name: 经验
   content:
-  - title: 主力算法工程师
+  - title: 助理算法工程师
     sub: 科大讯飞有限公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+    duration: "2022年10月 - 2024年4月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
+    - 自然语言处理，大模型，人工智能，算法
+    summary: 一种基于多步解码的实体和关系联合提取方案，
     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
   name: Projects
   content:
-  - title: 一种基于
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+  - title: 一种基于字形的文本摘要改进方案
+    duration: 2022年1月 - 2022年4月
+    detail: 基于深度学习在之前人字形字形中的应用，扩展字形类别；对不同类型的字形使用对比学习方案并将其应用到NLP模型中；优化文本分类结果，无需重新预训练。
+    sub: 曹宏宇，李金龙
+  - title: 一种基于多步解码的实体和关系联合提取方案
+    duration: 2022年10月 - 2023年2月
+    detail: 增加模型的多功能性：使其能够完成各种信息提取子任务，例如命名实体识别、关系抽取、事件抽取，由于模型的特点，也可用于其他任务，例如文本分类；提高信息提取效率：所有有关命名实体、关系和事件的信息同时提取，显着提高推理效率；提高模型学习语义约束的准确性，模型可以有效地了解文本中包含的实体、关系和事件之间的语义影响以及相互之间的关系类型之间的约束，减少误判。
+    sub: 郭冬杰，曹宏宇，盛志超
+  - title: EPKR：利用联合任务中常规大小模型生成的知识增强 LLM 提示
+    duration: 2023年6月 - 2024年4月
+    detail: 将LLM的下游联合任务形式化为多步骤的token级和sequence级子任务；使用一种利用分类模型来制定提示的方法，旨在帮助下游的联合文本生成任务，从而减轻与微调大型模型相关的计算开销；提出一种利用候选句子数量来控制LLM产生的情感倾向强度的方法。
+      # md: _data/demo.md
+    sub: 曹宏宇，郭冬杰，李金龙
+  - title: Desentiment：摘要生成过程中控制情感倾向的新方法
+    duration: 2022年10月 - 2024年4月
+    detail: 将情感分析和文本摘要融合任务制定为情感监督摘要任务，生成具有特定文本情感倾向的摘要；将情感校对的损失函数加权到总损失中，解决了缺乏情感极性标签的现有摘要任务训练数据集的问题；提出一种创新的标签提示方法来告知模型生成的摘要中所需的情感极性
+    sub: 曹宏宇，李金龙
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
