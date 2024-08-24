@@ -53,7 +53,7 @@ main: #简历主要内容，
     - 数据降维及可视化（PCA， Tsne）
     - 深度学习框架（Pytorch，FairSeq）
   - title: 其他技能
-    item:
+    items:
     - 数据库（MySQL）
     - 操作系统（Linux）
     - office系列软件
