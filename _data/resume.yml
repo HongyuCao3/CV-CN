@@ -44,9 +44,19 @@ main: #简历主要内容，
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - Python (Torch, FairSeq)
+    - Python
     - C++
     - Matlab
+    - Shell
+  - title: 人工智能
+    items:
+    - 数据降维及可视化（PCA， Tsne）
+    - 深度学习框架（Pytorch，FairSeq）
+  - title: 其他技能
+    item:
+    - 数据库（MySQL）
+    - 操作系统（Linux）
+    - office系列软件
 
 - type: experience
   name: 经验
@@ -97,6 +107,7 @@ others: #其他列表显示
     - USTC奖学金 2023春季学期
   - title: "兴趣爱好:"
     items: #单行列表
+    list:
     - Github开源项目应用（AI作图，声音到文本，简易网页制作，图片水印，Python爬虫）
     - 力量训练、长跑
   # - title: 列表
